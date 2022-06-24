@@ -1,7 +1,7 @@
 <!---:lai-name: BigQuery--->
 
 <div align="center">
-<img src="static/big-query-icon.png" width="200px">
+<img src="static/youtube-downloader-icon.jpeg" width="200px">
 
 ```
 A Lightning component to run queries on BigQuery.

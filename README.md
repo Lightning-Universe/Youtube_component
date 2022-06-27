@@ -4,7 +4,7 @@
 <img src="static/youtube-downloader-icon.jpeg" width="200px">
 
 ```
-A Lightning component to run queries on BigQuery.
+A Lightning component to download videos from YouTube.
 ______________________________________________________________________
 ```
 
@@ -14,11 +14,11 @@ ______________________________________________________________________
 
 ### About
 
-This component lets you run queries against a BigQuery warehouse.
+This component lets you download videos from YouTube.
 
 ### Use the component
 
-To Run a query
+To download a video
 
 ```python
 import lightning as L

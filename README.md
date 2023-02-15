@@ -1,6 +1,5 @@
 > :warning: **EXPERIMENTAL** This is an experimental repo and should be considered as such when using this component.
 
-
 <!---:lai-name: BigQuery--->
 
 <div align="center">
@@ -36,7 +35,9 @@ class YourComponent(L.LightningFlow):
 
     def run(self):
         # Download data to filesystem
-        self.downloader.download_video(link="<URL OF YOUTUBE VIDEO>", filename=self.destination)
+        self.downloader.download_video(
+            link="<URL OF YOUTUBE VIDEO>", filename=self.destination
+        )
 
 
 app = L.LightningApp(YourComponent())

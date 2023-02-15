@@ -48,5 +48,5 @@ class LitApp(L.LightningFlow):
 
 def test_download_data_from_app():
     """Test that VideoDownloader work runs end-to-end in an appflow."""
-    app = L.LightningApp(LitApp(), debug=True)
+    app = L.LightningApp(LitApp())
     MultiProcessRuntime(app, start_server=False).dispatch()

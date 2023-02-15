@@ -35,7 +35,9 @@ class YourComponent(L.LightningFlow):
 
     def run(self):
         # Download data to filesystem
-        self.downloader.download_video(link="<URL OF YOUTUBE VIDEO>", filename=self.destination)
+        self.downloader.download_video(
+            link="<URL OF YOUTUBE VIDEO>", filename=self.destination
+        )
 
 
 app = L.LightningApp(YourComponent())

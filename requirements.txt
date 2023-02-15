@@ -1,2 +1,4 @@
-lightning
+lightning==1.8.1
 pytube==12.1.0
+pyparsing  # todo: hotfix for 1.8 series
+fastapi<0.88  # ? AttributeError: Only JSON-serializable attributes are currently supported
